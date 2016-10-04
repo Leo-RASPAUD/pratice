@@ -1,4 +1,4 @@
-var removeDuplicateWithoutAdditionnalBuffer = (stringToProcess) => {
+const removeDuplicateWithoutAdditionnalBuffer = (stringToProcess) => {
 	let stringWithoutDuplicates = '';
 	for(char of stringToProcess){
 		if(stringWithoutDuplicates.indexOf(char) === -1){
