@@ -4,7 +4,7 @@
 // Quicksort is generally considered to be efficient and fast and so is used by V8 as the implementation for Array.prototype.sort() on arrays with more than 23 items. 
 //For less than 23 items, V8 uses insertion sort2. 
 
-// Complexity : O(n log n)
+// Complexity : O(n log n) 
 const quickSort = (arrayToSort, leftPointer, rightPointer) => {
 
 	if(!arrayToSort || arrayToSort.length === 0){

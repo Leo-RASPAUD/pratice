@@ -1,4 +1,4 @@
-const {quickSort} = require('./quickSort');
+const {quickSort} = require('./quickSort'); 
 
 //  O(log n)
 const binarySearch = (arrayToSort,target) => {
@@ -6,7 +6,7 @@ const binarySearch = (arrayToSort,target) => {
 	if(!arrayToSort || arrayToSort.length === 0){
 		return 'No elements to sort';
 	}
-	
+
 	const array = quickSort(arrayToSort);
 	let left = 0;
 	let right = array.length -1;
