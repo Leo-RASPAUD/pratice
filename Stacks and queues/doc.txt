@@ -1,0 +1,23 @@
+Stack : LIFO (last in - first out)
+	- push(item) : pushes an item onto the top of the stack
+	- pop() : removes the object at the top of te stack
+	- isEmpty()
+	- search(item)
+	- peek() : looks the object at the top of the stack
+
+Can be used in javascript with an array : 
+	- push(item)
+	- pop()
+	- array.length === 0
+	- indexOf(item)
+	- array[0]
+
+Queue : FIFO (first in - first out)
+	- add(item) : adds an item into the queue
+	- peek() : looks for the head element of the queue
+	- poll() : retrieves and remove the head element
+
+Can be used with javascript with an array : 
+	- push(item) 
+	- array[array.length-1]
+	- shift()
