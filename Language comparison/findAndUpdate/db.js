@@ -3,7 +3,7 @@ const assert = require('assert');
 
 console.time("update");
 
-const url = 'mongodb://10.10.4.37:27017/obdr';
+const url = 'mongodb://ip/obdr';
 
 const onSuccessFindBeforeUpdate = (database, idContainer) => {
 	return (error, result) => {

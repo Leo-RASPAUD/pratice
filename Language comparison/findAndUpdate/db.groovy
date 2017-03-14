@@ -6,7 +6,7 @@ import org.bson.types.ObjectId
 
 start = System.currentTimeMillis()
 
-MongoClient mongoClient = new MongoClient("10.10.4.37",27017)
+MongoClient mongoClient = new MongoClient("ip",27017)
 DB db = mongoClient.getDB("obdr")
 DBCollection table = db.getCollection("container")
 CONTAINER_ID="5887294eaf68a509b0ba1aaf"

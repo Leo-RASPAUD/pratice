@@ -6,7 +6,7 @@ from bson.objectid import ObjectId
 start = time.time()
 
 def get_db():
-	db = MongoClient('10.10.4.37:27017')
+	db = MongoClient("ip")
 	return db
 
 def view_value():
