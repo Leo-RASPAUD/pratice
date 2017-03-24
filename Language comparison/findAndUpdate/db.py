@@ -10,7 +10,7 @@ def get_db():
 	return db
 
 def view_value():
-	results = db.obdr.container.find({"_id" : ObjectId("5887294eaf68a509b0ba1aaf")})
+	results = db.obdr.container.findOne({"_id" : ObjectId("5887294eaf68a509b0ba1aaf")})
 	element = results[0]
 	print element["description"]
 
